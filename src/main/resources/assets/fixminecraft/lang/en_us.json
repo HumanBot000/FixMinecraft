@@ -1,3 +1,5 @@
 {
-  "item.fixminecraft.reinforced_iron" : "Reinforced Iron"
+  "item.fixminecraft.reinforced_iron" : "Reinforced Iron",
+  "item.fixminecraft.iron_piece" : "Iron Piece",
+  "itemGroup.fix_minecraft": "Fix MC"
 }
