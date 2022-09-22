@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "fixminecraft:reinforced_iron"
+    }
+  },
+  "result": {
+    "item": "fixminecraft:reinforced_iron_block"
+  }
+}

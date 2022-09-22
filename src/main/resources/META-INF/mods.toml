@@ -19,7 +19,7 @@ modId="fixminecraft" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.0.1-1.19" #mandatory
+version="0.0.2-1.19" #mandatory
  # A display name for the mod
 displayName="Fix MC" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -29,7 +29,7 @@ displayName="Fix MC" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks to Kaupenjoe on youtube for tutorials" #optional
 # A text field displayed in the mod UI
 authors="Tobias" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,7 +42,7 @@ authors="Tobias" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Fix MC
+Fix some small Minecraft issues
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.fixminecraft]] #optional
@@ -62,5 +62,5 @@ Fix MC
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.19,1.20)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"

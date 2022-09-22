@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tobias.fixminecraft.block.ModBlocks;
 import net.tobias.fixminecraft.item.ModItems;
 import org.slf4j.Logger;
 
@@ -21,6 +22,9 @@ public class FixMinecraft {
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        System.out.println("Loaded ModItems");
+        ModBlocks.register(modEventBus);
+        System.out.println("Loaded ModBlocks");
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }

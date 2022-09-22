@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fixminecraft:block/reinforced_iron_block"
+  }
+}
