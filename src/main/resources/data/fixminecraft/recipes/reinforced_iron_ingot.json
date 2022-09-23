@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:iron_ingot"
+    },
+    "x": {
+      "item": "fixminecraft:iron_plate"
+    }
+  },
+  "result": {
+    "item": "fixminecraft:reinforced_iron"
+  }
+}

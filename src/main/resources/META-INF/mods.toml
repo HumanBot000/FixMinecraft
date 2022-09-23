@@ -29,7 +29,7 @@ displayName="Fix MC" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to Kaupenjoe on youtube for tutorials" #optional
+credits="Thanks to Kaupenjoe on Youtube for tutorials" #optional
 # A text field displayed in the mod UI
 authors="Tobias" #optional
 # Display Test controls the display for your mod in the server connection screen

@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, FixMinecraft.MOD_ID);
 
-    public static final RegistryObject<Block> REINFORCED_IRON_BLOCK =registerBlock("reinforced_iron_block",()  -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(20f).jumpFactor(0.5f).explosionResistance(4f)), ModCreativeModeTab.FixMinecraft_Tab);
+    public static final RegistryObject<Block> REINFORCED_IRON_BLOCK =registerBlock("reinforced_iron_block",()  -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(20f).jumpFactor(0.5f).explosionResistance(4f).requiresCorrectToolForDrops().speedFactor(1.5f)), ModCreativeModeTab.FixMinecraft_Tab);
 
 
 

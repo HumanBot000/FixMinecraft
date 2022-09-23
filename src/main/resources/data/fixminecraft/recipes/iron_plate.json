@@ -2,14 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "fixminecraft:iron_piece"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "###"
+    "   ",
+    "###",
+    "   "
   ],
   "result": {
     "count": 1,
-    "item": "minecraft:iron_ingot"
+    "item": "fixminecraft:iron_plate"
   }
 }
