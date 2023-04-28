@@ -1,6 +1,7 @@
 {
   "item.fixminecraft.reinforced_iron" : "Reinforced Iron Ingot",
   "item.fixminecraft.iron_piece" : "Iron Piece",
+  "item.fixminecraft.golden_piece": "Golden Piece",
   "block.fixminecraft.reinforced_iron_block" : "Reinforced Iron Block",
   "item.fixminecraft.iron_plate" : "Iron Plate",
   "itemGroup.fix_minecraft": "Fix MC"

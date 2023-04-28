@@ -14,6 +14,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> REINFORCED_IRON = ITEMS.register("reinforced_iron",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.FixMinecraft_Tab)));
     public static final RegistryObject<Item> IRON_PIECE = ITEMS.register("iron_piece",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.FixMinecraft_Tab).stacksTo(16)));
+    public static final RegistryObject<Item> GOLDEN_PIECE = ITEMS.register("golden_piece",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.FixMinecraft_Tab).stacksTo(16)));
     public static final RegistryObject<Item> IRON_PLATE = ITEMS.register("iron_plate",() -> new Item(new Item.Properties().tab(ModCreativeModeTab.FixMinecraft_Tab)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
